@@ -1,6 +1,6 @@
 const findLargest = (arr) => {
     let largest = arr[0];
-    for(let i = 0; i<arr.length; i++){
+    for(let i = 1; i<arr.length; i++){
         if(largest < arr[i]){
             largest = arr[i];
         }
