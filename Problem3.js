@@ -1,4 +1,4 @@
-const reverseString = (str) =>{
+const palindrome = (str) =>{
     
     let reverse = "";
     for(let i = str.length-1; i>=0; i--){
@@ -8,5 +8,5 @@ const reverseString = (str) =>{
     str.toLowerCase() == reverse.toLowerCase() ? console.log("true" ) : console.log("false");
 }
 
-reverseString("hello");
-reverseString("madam");
+palindrome("hello");
+palindrome("madam");
